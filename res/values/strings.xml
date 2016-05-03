@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">Google安全守护</string>
+	<string name="info">木马已启动</string>	
+</resources>

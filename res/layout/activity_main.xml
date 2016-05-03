@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1dp"
+    android:layout_height="1dp" >
+
+    <Button
+        android:id="@+id/contract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="通讯录"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contract"
+        android:text="GPS"
+        android:textSize="20sp" />
+     <Button
+        android:id="@+id/recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/GPS"
+        android:text="录音"
+        android:textSize="20sp" />
+     <Button
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recorder"
+        android:text="照相"
+        android:textSize="20sp" />
+     <Button
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contract"
+        android:text="摄像"
+        android:textSize="20sp" />
+ <Button
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/video"
+        android:layout_below="@id/photo"
+        android:text="访问网址"
+        android:textSize="20sp" />
+ <Button
+        android:id="@+id/wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/url"
+        android:layout_below="@id/photo"
+        android:text="微信"
+        android:textSize="20sp" />
+  <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/wechat"
+        android:layout_below="@id/photo"
+        android:text="修改IP"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/info"
+        android:textSize="50sp" />
+
+</RelativeLayout>
